@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login</title>
+    <link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-light d-flex align-items-center" style="min-height: 100vh;">
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-5 col-lg-4">
+            <div class="card shadow-lg border-0">
+                
+                <div class="card-header bg-primary text-white text-center">
+                    <h4 class="mb-0">Inicio de Sesión</h4>
+                </div>
+
+                <div class="card-body p-4">
+                    <form action="validar.php" method="post">
+                        
+                        <div class="form-group">
+                            <label for="usuario" class="font-weight-bold">Usuario</label>
+                            <input type="text" class="form-control form-control-lg" id="usuario" name="usuario" placeholder="Ingrese su usuario" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contrasena" class="font-weight-bold">Contraseña</label>
+                            <input type="password" class="form-control form-control-lg" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg btn-block mt-3">
+                            Ingresar
+                        </button>
+
+                    </form>
+                </div>
+
+                <div class="card-footer text-center small text-muted">
+                    © 2026
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
